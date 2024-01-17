@@ -9,7 +9,7 @@ def dict_generator(my_list):
 
 
 def main():
-    mn, mx, ln = 1, 10, 20
+    mn, mx, ln = 1, 10, 2000
     lst = create_random_list(ln, mn, mx)
     dct = dict_generator(lst)
     print(dct)
